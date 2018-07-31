@@ -1,15 +1,16 @@
-package pl.michalsulek.vgtiv4
+package pl.michalsulek.vgtiv4.activities
 
 import android.app.Activity
 import android.os.Bundle
 import android.os.Handler
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_vgti.*
+import pl.michalsulek.vgtiv4.R
 import pl.michalsulek.vgtiv4.ext.suicide
 
-class MainActivity : Activity() {
+class VGTIActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_vgti)
 
         suicideBtn.setOnClickListener { suicide() }
 

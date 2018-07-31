@@ -1,3 +1,5 @@
 <resources>
   <string name="app_name">VGTI v4</string>
+  <string name="app_name_yanosik">Yanosik</string>
+  <string name="app_name_torque">Torque</string>
 </resources>
